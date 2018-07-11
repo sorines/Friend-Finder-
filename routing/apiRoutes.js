@@ -45,14 +45,9 @@ module.exports = function(APP) {
   });
 };
 
-// //getting that api query to function
+// // //getting that api query to function
 //     function apiQuery() {
 
-//         // Here we get the location of the root page.
-//         // We use this instead of explicitly saying the URL is localhost:3001 because the url will change when we deploy.
-//          currentURL = window.location.origin;
-  
-//         // The AJAX function uses the URL of our API to GET the data associated with it (initially set to localhost)
 //         $.ajax({ url: currentURL + "/api/friends", method: "GET" })
 //           .then(function(FRIENDS) {
   
@@ -81,29 +76,29 @@ module.exports = function(APP) {
 //               $("#friends-" + i + 1).append("<h2><span class='label label-primary'>" + friendsNumber + "</span> | " + friendsData[i].friendsDataID + "</h2>");
 //             }
 //           });
-//       }
+//         }    
   
       
   
-    //   // This function resets all of the data in our tables. This is intended to let you restart a demo.
-    //   function clearTable() {
+//       // This function resets all of the data in our tables. This is intended to let you restart a demo.
+//     //   function clearFriends() {
   
-    //     var currentURL = window.location.origin;
-    //     $.ajax({ url: currentURL + "/api/clear", method: "POST" });
+//     //     var currentURL = window.location.origin;
+//     //     $.ajax({ url: currentURL + "/api/clear", method: "POST" });
   
-    //   }
+//     //   }
   
-    //   $("#clear").on("click", function() {
-    //     alert("Clearing...");
-    //     clearTable();
+//     //   $("#clear").on("click", function() {
+//     //     alert("Clearing...");
+//     //     clearFriends();
   
-    //     // Refresh the page after data is cleared
-    //     location.reload();
+//     //     // Refresh the page after data is cleared
+//     //     location.reload();
   
-    //   });
+//     //   });
   
   
-    //   // Run Queries!
-    //   // ==========================================
-       apiQuery();
-    //   runWaitListQuery();
+//     //   // Run Queries!
+//     //   // ==========================================
+//      apiQuery();
+   
